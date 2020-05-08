@@ -3,11 +3,13 @@
 </template>
 
 <script>
-export default {
+const Display = {
   props: {
     value: String
   }
 };
+
+export default Display;
 </script>
 
 <style>

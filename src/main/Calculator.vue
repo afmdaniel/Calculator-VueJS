@@ -27,7 +27,7 @@
 import Display from "../components/Display";
 import Button from "../components/Button";
 
-export default {
+const Calculator = {
   components: {
     Button,
     Display
@@ -44,6 +44,8 @@ export default {
     }
   }
 };
+
+export default Calculator;
 </script>
 
 <style>

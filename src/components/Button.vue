@@ -7,7 +7,7 @@
 </template>
 
 <script>
-export default {
+const Button = {
   props: {
     label: null,
     operation: Boolean,
@@ -15,6 +15,8 @@ export default {
     triple: Boolean
   }
 };
+
+export default Button;
 </script>
 
 <style>
